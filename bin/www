@@ -1,0 +1,6 @@
+const http = require('http')
+const app = require('../server')
+
+// Node.js Server 連接 Mongoose 環境建立
+const server = http.createServer(app)
+server.listen(process.env.PORT || 3000)
