@@ -12,3 +12,12 @@
 4. mongoose 連接遠端資料庫
 5. dotenv 加上環境變數，讓程式更安全
 6. 部署到 heroku 主機
+
+### 資料夾結構
+1. connections 連接資料庫設定
+2. controllers API進入點
+3. Header      API 請求之 header 封裝
+4. models      Schema 設定
+5. routes      各種 API 請求方法及路徑控管
+6. service     API 請求回應 成功或失敗訊息
+7. server.js   檔案進入點
